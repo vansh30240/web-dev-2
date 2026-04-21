@@ -1,0 +1,53 @@
+body{
+font-family: Arial;
+background: linear-gradient(#1f2a63,#2d3c8c);
+color:white;
+text-align:center;
+}
+
+.container{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:30px;
+}
+
+.search-box, .weather-box{
+background:white;
+color:black;
+padding:20px;
+border-radius:10px;
+width:350px;
+text-align:left;
+}
+
+input{
+width:70%;
+padding:8px;
+}
+
+button{
+padding:8px 15px;
+background:orange;
+border:none;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+.history-item{
+display:inline-block;
+background:orange;
+color:white;
+padding:5px 10px;
+border-radius:20px;
+margin:5px;
+cursor:pointer;
+}
+
+.weather-row{
+display:flex;
+justify-content:space-between;
+border-bottom:1px solid #ddd;
+padding:8px 0;
+}
