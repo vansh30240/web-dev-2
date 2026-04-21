@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    min-height:100vh;
+    background: linear-gradient(120deg,#5a3ae8,rgb(210, 54, 80),#b650f1);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.dashboard{
+    width:90%;
+    max-width:1100px;
+    background:#d9e6e9;
+    border-radius:16px;
+    padding:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.2);
+}
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+.top{
+    display:flex;
+    gap:20px;
+}
+.form-card{
+    width:30%;
+    background:#f8f9fd;
+    padding:15px;
+    border-radius:12px;
+}
+.form-card h2{
+    color:#6d2398;
+}
+
+label{
+    display:block;
+    margin-top:10px;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+button{
+    margin-top:12px;
+    padding:8px;
+    width:100%;
+    border:none;
+    border-radius:8px;
+    background:#7d4daa;
+    color:white;
+    cursor:pointer;
+}
+button:hover{
+    transform:translateX(0px) ;
+    box-shadow: 0 6px 12px rgb(105, 104, 104);
+    transition-duration: 0.5s;
+}
+.events-card{
+    flex:1;
+    background:#f8f9fd;
+    padding:15px;
+    border-radius:12px;
+}
+
+#btns-container{
+    display:flex;
+    gap:10px;
+    margin-bottom:15px;
+}
+#btns-container button{
+    flex:1;
+    background:linear-gradient(90deg,#3d43b9,#ab4fb5);
+}
+#btns-container button:hover{
+    transform:translateX(0px) ;
+    box-shadow: 0 6px 12px rgb(105, 104, 104);
+    transition-duration: 0.5s;
+}
+#event-handling-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+.event-card{
+    background:linear-gradient(135deg,#eef2f8,#dfe7f3);
+    border-radius:14px;
+    padding:15px;
+    position:relative;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+.event-card h4{
+    font-size:18px;
+    margin-bottom:8px;
+}
+.event-date{
+    font-size:14px;
+    color:#555;
+}
+.badge{
+    display:inline-block;
+    background:#5b6ee1;
+    color:white;
+    padding:4px 10px;
+    border-radius:20px;
+    font-size:12px;
+    margin:8px 0;
+}
+.close-btn{
+    position:absolute;
+    top:10px;
+    right:10px;
+    background:#815bff;
+    border:none;
+    color:white;
+    width:33px;
+    height:32px;
+    border-radius:50%;
+    cursor:pointer;
+}
+.empty-text{
+    grid-column:1/-1;
+    text-align:center;
+    color:#777;
+}
+.dom-demo{
+    margin-top:20px;
+    background:#f8f9fd;
+    padding:12px;
+    border-radius:12px;
+}
