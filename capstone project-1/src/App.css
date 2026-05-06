@@ -1,0 +1,29 @@
+body {
+  font-family: Arial;
+  background-color: #1369ea;
+}
+
+.container {
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 170px;
+}
+
+.alert {
+  color: red;
+  background: #ffe5e5;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
